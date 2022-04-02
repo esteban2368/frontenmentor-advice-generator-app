@@ -1,0 +1,23 @@
+{
+  "name": "advice-generator-app-main",
+  "version": "1.0.0",
+  "description": "Challence from fontermentor: advice generator app using API ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel ./src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esteban2368/frontenmentor-advice-generator-app.git"
+  },
+  "author": "Esteban Diaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/esteban2368/frontenmentor-advice-generator-app/issues"
+  },
+  "homepage": "https://github.com/esteban2368/frontenmentor-advice-generator-app#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.4.0",
+    "parcel": "^2.4.0"
+  }
+}

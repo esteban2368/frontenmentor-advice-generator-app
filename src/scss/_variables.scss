@@ -1,0 +1,30 @@
+
+//-----Container---------
+$w_container : 540px;
+
+//-----Container---------
+$font : "Josefin Sans", sans-serif;
+
+//-----Primary Colors---------
+
+$cyan : hsl(193, 38%, 86%);
+$green : hsl(150, 100%, 66%);
+
+//-----Neutral Colors---------
+
+$blue : hsl(217, 19%, 38%);
+$grayish_blue : hsl(217, 19%, 24%);
+$dark_blue : hsl(218, 23%, 16%);
+
+//-----Neutral Colors---------
+$fs-base : 1rem;
+$fs-quate :  1rem * 1.75;
+
+//-----Mixin---------
+
+@mixin image_bg($url){
+    background-image: url($url);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

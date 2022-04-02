@@ -1,0 +1,67 @@
+@import '_variables';
+
+body {
+    font-size: $fs-base;
+    background-color: $dark_blue;
+    font-family: $font;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: $w_container;
+    margin: auto;
+    border-radius: .9rem;
+    padding-left: $fs-base * 2.81;
+    padding-right: $fs-base * 2.81;
+    padding-top: $fs-base * 3;
+    padding-bottom: $fs-base * 3;
+    background-color: $grayish_blue;
+
+    .advice__number{
+        text-align: center;
+        color: $green;
+        font-size: $fs-base - .2;
+        padding-bottom: $fs-base * 1.87;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+    }
+    .advice__text{
+        text-align: center;;
+        color: $cyan;
+        font-size: $fs-quate;
+        font-weight: 800;
+    }
+    .image-separate{
+        width: 100%;
+        height: 20px;
+        margin-top: $fs-base * 2.81;
+        margin-bottom: $fs-base * 1.56;
+        @include image_bg('../images/pattern-divider-desktop.svg');
+    }
+    .button{
+        position: absolute;
+        width: $fs-base * 4;
+        height: $fs-base * 4;
+        border-radius: 50%;
+        cursor: pointer;
+        background-color: $green;
+        border: none;
+        left: 50%;
+        bottom: $fs-base * -2;
+        transform: translateX(-50%);
+        @include image_bg('../images/icon-dice.svg');
+        background-size: auto;
+        &:hover{
+            box-shadow: 1px -5px 49px -5px $green;
+        }
+    }
+}
