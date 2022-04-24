@@ -1,0 +1,92 @@
+body {
+  font-size: 1rem;
+  background-color: hsl(218deg, 23%, 16%);
+  font-family: "Manrope", sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 540px;
+  margin: auto;
+  border-radius: 0.9rem;
+  padding-left: 2.81rem;
+  padding-right: 2.81rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: hsl(217deg, 19%, 24%);
+}
+.container .advice__number {
+  text-align: center;
+  color: hsl(150deg, 100%, 66%);
+  font-size: 0.8rem;
+  padding-bottom: 1.87rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+.container .advice__text {
+  text-align: center;
+  color: hsl(193deg, 38%, 86%);
+  font-size: 1.75rem;
+  font-weight: 800;
+}
+.container .image-separate {
+  width: 100%;
+  height: 20px;
+  margin-top: 2.81rem;
+  margin-bottom: 1.56rem;
+  background-image: url("/pattern-divider-desktop.4483a790.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.container .button {
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: hsl(150deg, 100%, 66%);
+  border: none;
+  left: 50%;
+  bottom: -2rem;
+  transform: translateX(-50%);
+  background-image: url("/icon-dice.a3312263.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: auto;
+}
+.container .button:hover {
+  box-shadow: 1px -5px 49px -5px hsl(150deg, 100%, 66%);
+}
+
+@media (max-width: 375px) {
+  html {
+    font-size: 0.9rem;
+  }
+
+  .container {
+    max-width: 345px;
+    padding-left: 1.81rem;
+    padding-right: 1.81rem;
+  }
+  .container .image-separate {
+    margin-top: 1.81rem;
+    height: 16px;
+    background-image: url("/pattern-divider-mobile.80793a22.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+/*# sourceMappingURL=/src.e31bb0bc.css.map */

@@ -65,3 +65,19 @@ body {
         }
     }
 }
+
+@media (max-width: $mobile) {
+    html{
+        font-size: $fs-base - .1rem;
+    }
+    .container{
+        max-width: 345px;
+        padding-left: $fs-base * 1.81;
+        padding-right: $fs-base * 1.81;
+        .image-separate{
+            margin-top: $fs-base * 1.81;
+            height: 16px;
+            @include image_bg('../images/pattern-divider-mobile.svg');
+        }
+    }
+}

@@ -18,6 +18,7 @@
   "homepage": "https://github.com/esteban2368/frontenmentor-advice-generator-app#readme",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.4.0",
-    "parcel": "^2.4.0"
+    "parcel": "^2.4.0",
+    "sass": "^1.50.1"
   }
 }

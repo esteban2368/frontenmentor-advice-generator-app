@@ -3,7 +3,7 @@
 $w_container : 540px;
 
 //-----Container---------
-$font : "Josefin Sans", sans-serif;
+$font : 'Manrope', sans-serif;
 
 //-----Primary Colors---------
 
@@ -16,10 +16,13 @@ $blue : hsl(217, 19%, 38%);
 $grayish_blue : hsl(217, 19%, 24%);
 $dark_blue : hsl(218, 23%, 16%);
 
-//-----Neutral Colors---------
+//-----Font sizes---------
 $fs-base : 1rem;
 $fs-quate :  1rem * 1.75;
 
+//-----Breakpoints---------
+$desktop: 900px;
+$mobile: 375px;
 //-----Mixin---------
 
 @mixin image_bg($url){
