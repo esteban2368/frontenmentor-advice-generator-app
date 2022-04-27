@@ -2,9 +2,11 @@
   "name": "advice-generator-app-main",
   "version": "1.0.0",
   "description": "Challence from fontermentor: advice generator app using API ",
-  "main": "index.js",
   "scripts": {
-    "dev": "parcel ./src/index.html"
+    "start": "node index.js",
+    "dev": "parcel ./src/index.html",
+    "prebuild": "npx rimraf build",
+    "build": "parcel build ./src/index.html"
   },
   "repository": {
     "type": "git",
