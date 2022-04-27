@@ -65,6 +65,15 @@ body {
         }
     }
 }
+.attribution{
+  font-size: $fs-base; 
+  text-align: center;
+  color: $cyan;
+  margin-bottom: 1rem;
+  a{
+    color: $green;
+  }
+}
 
 .lds-spinner {
     color: official;
